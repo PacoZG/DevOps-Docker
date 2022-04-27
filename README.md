@@ -1,8 +1,8 @@
 # DevOps with Docker most used commands
 
 
-| command |	explain |	shorthand |
-|-----------------|-----------------|--------------|
+|  Command  |  Explain |	Shorthand |
+|:-----------------|:-----------------|:--------------|
 |docker image ls	|Lists all images |	docker images|
 |docker image rm  ```<image>```	| Removes an image	| docker rmi |
 |docker image pull ```<image>```	|Pulls image from a docker registry |	docker pull |
