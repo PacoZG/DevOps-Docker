@@ -22,3 +22,7 @@ Searching..
 <p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
 </body></html>
 ```
+___
+```bash
+docker run -v "$(pwd)/text.log:/usr/src/app/text.log"  devopsdockeruh/simple-web-service
+```
