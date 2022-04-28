@@ -15,4 +15,4 @@ RUN apt-get install -y curl
 RUN chmod +x script.txt
 
 # When running docker run the command will be ./script.txt
-CMD ./script.txt
+ENTRYPOINT [ "/usr/src/app/script.txt" ]
