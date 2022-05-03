@@ -8,6 +8,6 @@ ENV REQUEST_ORIGIN=http://localhost:5000
 
 COPY . .
 
-RUN go build && test ./...
+RUN go build && go test ./...
 
 CMD ["./server"]
