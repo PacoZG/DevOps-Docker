@@ -1,11 +1,11 @@
 # Homework
 
 ## Description
-This *application* is an image of my personal [website]('http://pacoder.com) that that has been developt with ReactJS, Tailwind and other tools. For more information about the base code go [here]('https://github.com/PacoZG/pacoder)
+This *application* is an image of my personal [website]('http://pacoder.com) that has been developt with ReactJS, Tailwind and other tools. For more information about the base code go [here](https://github.com/PacoZG/pacoder)
 
 ## The way I builed the image
 - First I clone the repository in my local machine
-- I created a [Dockerfile](./Dockerfile) that will build the docker image that I called __pacoder__
+- I created a [Dockerfile](./Dockerfile) which I used to build the image that I called __pacoder__
 
 ## Tagging the image
 ```bash
