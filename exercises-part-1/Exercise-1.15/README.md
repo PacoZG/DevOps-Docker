@@ -17,7 +17,7 @@ $ docker push sirpacoder/pacoder
 ```
 
 ## How to run the application:
-Run thise following script in the terminal
+Run the following script in the terminal
 ```bash
 $ docker pull sirpacoder/pacoder:latest
 ```
