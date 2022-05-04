@@ -36,3 +36,5 @@ e30f14c93020   mongo     "docker-entrypoint.s…"   50 seconds ago       Exited 
 452c073a9d30   redis     "docker-entrypoint.s…"   About a minute ago   Up About a minute           6379/tcp   dreamy_goldstine
 cadaafdc9614   nginx     "/docker-entrypoint.…"   2 minutes ago        Exited (0) 24 seconds ago              elated_noyce
 ```
+__Terminal screeshot__
+![Terminal Screenshot](./Screenshot%20terminal%20exercise%201.1.png)

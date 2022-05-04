@@ -40,3 +40,6 @@ ___
 ```bash
 $ docker image rm mongo redis nginx
 ```
+
+__Terminal screeshot__
+![Terminal Screenshot](./Screenshot%20terminal%20exercise%201.2.png)
