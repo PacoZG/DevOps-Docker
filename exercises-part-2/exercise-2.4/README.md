@@ -1,0 +1,31 @@
+# docker-compose.yml content
+
+```yaml
+version: '3.8'
+
+services:
+  frontend:
+    image: frontend
+    container_name: frontend-container
+    build:
+      context: ./example-frontend
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+
+  backend:
+    image: backend
+    container_name: backend-container
+    build:
+      context: ./example-backend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      - REDIS_HOST=redis
+  
+  redis:
+    image: redis
+    container_name: redis-server
+    restart: unless-stopped
+```
