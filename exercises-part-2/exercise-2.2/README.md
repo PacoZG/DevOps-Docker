@@ -1,0 +1,14 @@
+# docker-compose.yml content
+
+```yaml
+version: '3.8'
+
+services:
+  sws-app:
+    image: devopsdockeruh/simple-web-service
+    container_name: sws-app
+    ports:
+      - 8080:8080
+    command: server
+
+```

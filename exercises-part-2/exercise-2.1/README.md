@@ -1,0 +1,13 @@
+# docker-compose.yml content
+
+```yaml
+version: '3.8'
+
+services:
+  sws-app:
+    image: devopsdockeruh/simple-web-service
+    build: .
+    volumes:
+      - ./text.log:/usr/src/app/text.log
+    container_name: sws-app
+```
