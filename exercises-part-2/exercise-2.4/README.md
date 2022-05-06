@@ -13,10 +13,10 @@ services:
     ports:
       - 5000:5000
 
-  backend:
+  backend: 
     image: backend
     container_name: backend-container
-    build:
+    build: 
       context: ./example-backend
       dockerfile: Dockerfile
     ports:
@@ -26,6 +26,7 @@ services:
   
   redis:
     image: redis
-    container_name: redis-server
+    container_name: redis-container
     restart: unless-stopped
+    command: redis-server
 ```
