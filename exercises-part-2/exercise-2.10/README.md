@@ -1,4 +1,4 @@
-# Implementation of exercise 2.8
+# Implementation of exercise 2.10
 
 ## Updated nginx.conf file configuration
 I manage to make button "GET ALL MESSAGES!" to work but for some reason "SEND MESSAGES!" button would not work even though GET and POST it use the same URL endpoint

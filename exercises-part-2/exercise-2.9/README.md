@@ -1,4 +1,4 @@
-# Implementation of exercise 2.8
+# Implementation of exercise 2.9
 
 ## docker-compose file configuration
 For this exercise I use the docker compose file from exercise 2.6 on which we didn't integrate NGINX and the buttons worked properly.
