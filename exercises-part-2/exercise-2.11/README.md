@@ -39,7 +39,7 @@ I named these files so that I can separate environments, we can run the compose 
 ```
 $ docker-compose -f docker-compose.dev.yml up
 ```
-With this we can do a interactive development on which we can see the changes on the browser even when we are running the environment with a container
+With this we can do a interactive development on which we can see the changes on the browser even when we are running the environment with a container. it can be open at http://localhost:3000
 
 # Production environment with nginx
 
@@ -101,3 +101,4 @@ This environment can be run with the usual
 ```
 $ docker-compose up
 ```
+And can be open at http://localhost
