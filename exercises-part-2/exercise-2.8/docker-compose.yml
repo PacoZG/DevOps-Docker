@@ -7,10 +7,10 @@ services:
     build:
       context: ./example-frontend
       dockerfile: Dockerfile
-  backend: 
+  backend:
     image: backend
     container_name: backend
-    build: 
+    build:
       context: ./example-backend
       dockerfile: Dockerfile
     environment:

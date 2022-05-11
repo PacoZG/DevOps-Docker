@@ -69,7 +69,7 @@ http {
   }
 }
 ```
-
+___
 ## Change on *REACT_APP_BACKEND_URL* of __frontend__Dockerfile
 ```docker
 FROM node:16
@@ -86,6 +86,7 @@ RUN npm install && npm run build && npm install -g serve
 
 CMD ["serve", "-s", "-l", "5000", "build"]
 ```
+___
 ## Change on *REQUEST_ORIGIN* of __backend__ Dockerfile
 
 ```docker
@@ -105,4 +106,4 @@ RUN go build && go test ./...
 
 CMD ["./server"]
 ```
-
+___
