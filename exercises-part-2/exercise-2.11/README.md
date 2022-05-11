@@ -1,5 +1,5 @@
-# Implementation of exercise 2.8
-
+# Implementation of exercise 2.11
+- The repository/project used for this exercise can be found at [pacoder](https://github.com/PacoZG/pacoder), we only need to copy the docker-compose, dockerfile and the nginx files to the root of the project and proceed with the steps below.
 # Development environment
 ## docker-compose.dev file configuration
 ```yaml
