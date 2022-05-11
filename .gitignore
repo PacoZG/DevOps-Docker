@@ -48,3 +48,7 @@ yarn-error.log*
 /exercises-part-2/exercise-2.9/example-frontend
 /exercises-part-2/exercise-2.9/database
 /exercises-part-2/exercise-2.9/redis
+/exercises-part-2/exercise-2.10/example-backend
+/exercises-part-2/exercise-2.10/example-frontend
+/exercises-part-2/exercise-2.10/database
+/exercises-part-2/exercise-2.10/redis
