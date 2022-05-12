@@ -1,3 +1,4 @@
+```yaml
 version: '3.8'
 
 services:
@@ -36,3 +37,5 @@ volumes:
   model:
   images:
   data:
+
+```
