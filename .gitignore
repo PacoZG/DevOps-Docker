@@ -53,3 +53,9 @@ yarn-error.log*
 /exercises-part-2/exercise-2.10/database
 /exercises-part-2/exercise-2.10/redis
 /exercises-part-3/exercise-3.1/pacoder
+/exercises-part-3/exercise-3.3/example-backend
+/exercises-part-3/exercise-3.3/example-frontend
+/exercises-part-3/exercise-3.3/redis
+/exercises-part-3/exercise-3.3/database
+/exercises-part-3/exercise-3.3/nginx.conf
+/exercises-part-3/exercise-3.3/docker-compose.yml
