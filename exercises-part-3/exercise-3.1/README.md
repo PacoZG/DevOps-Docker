@@ -58,6 +58,7 @@ jobs:
           checkstring: 'ok'
           delay: 5
           rollbackonhealthcheckfailed: true
+          usedocker: true
   
   push_to_docker_hub:
     name: Push Docker image to Docker Hub
@@ -77,8 +78,6 @@ jobs:
         with:
           push: true
           tags: sirpacoder/pacoder_zavala_app:latest
-        
-
 ```
 ## Dockerfile
 ```docker
