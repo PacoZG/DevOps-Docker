@@ -4,9 +4,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN go build && go test ./... 
-
-RUN useradd -m devuser && chown devuser /usr/src/app
+RUN go build && go test ./... && \
+  useradd -m devuser && chown devuser /usr/src/app
 
 USER devuser
 
