@@ -1,0 +1,25 @@
+FROM golang:1.16-alpine AS backend-build
+
+WORKDIR /app
+
+COPY . /app
+
+RUN cd /app && go build -o backend
+
+
+
+FROM alpine
+
+WORKDIR /app
+
+COPY --from=backend-build /app/backend /app
+
+RUN apk update && \
+  apk add ca-certificates && \
+  rm -rf /var/cache/apk/* && \
+  adduser -D devuser && \
+  chown devuser /app
+
+USER devuser
+
+ENTRYPOINT ./backend
