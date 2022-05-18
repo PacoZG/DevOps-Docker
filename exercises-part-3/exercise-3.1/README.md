@@ -50,15 +50,14 @@ jobs:
         if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ', '), '#skip') }}
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: 'pacoderzavala' # Must be unique in Heroku
-          heroku_email: 'sirpaquillo1@yahoo.com.mx'
+          heroku_app_name: < app_name > # Must be unique in Heroku
+          heroku_email: < user_email >
           dontuseforce: false
           procfile: 'web: npm run production'
-          healthcheck: 'https://pacoderzavala.herokuapp.com/health'
           checkstring: 'ok'
           delay: 5
           rollbackonhealthcheckfailed: true
-          usedocker: true
+          usedocker: true # To Deploy with Docker
   
   push_to_docker_hub:
     name: Push Docker image to Docker Hub
@@ -77,7 +76,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: sirpacoder/pacoder_zavala_app:latest
+          tags: <username>/<repository>:<tag>
 ```
 ## Dockerfile
 ```docker
