@@ -7,7 +7,7 @@
 
 ## github pipeline file configuration
 ```yaml
-name: pacoderzavala
+name: <workflow_name>
 
 on:
   push:
