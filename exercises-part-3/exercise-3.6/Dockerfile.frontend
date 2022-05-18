@@ -1,0 +1,26 @@
+FROM node:16 as frontend-build
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install && npm run build
+
+
+FROM alpine
+
+WORKDIR /root/
+
+RUN apk update && \
+  apk add nodejs npm && \
+  npm install -g serve && \
+  apk add ca-certificates && \
+  rm -rf /var/cache/apk/* && \
+  adduser -D devuser && \
+  chown devuser /root/
+
+USER devuser
+
+COPY --from=frontend-build ./app/build ./build
+
+CMD [ "serve", "-s", "-l", "5000", "build" ]
