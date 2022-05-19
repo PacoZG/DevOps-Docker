@@ -1,4 +1,4 @@
-# Implementation of exercise 3.5 - Image size improvement of a personal project with Alpine
+# Implementation of exercise 3.7 - Image size improvement of a personal project with Alpine
 - The repository/project used for this exercise can be found at [pacoder](https://github.com/PacoZG/pacoder), we only need to copy the docker-compose, dockerfile and the nginx files to the root of the project and proceed with the steps below.
 
 ## Dockerfile

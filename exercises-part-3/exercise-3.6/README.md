@@ -1,4 +1,4 @@
-# Implementation of exercise 3.5 - Multi-stage frontend and backend
+# Implementation of exercise 3.6 - Multi-stage frontend and backend
 
 ## Sizes have improved as we can see on the screenshots below:
 ### At this point and frm previous exercises I managed to optimize backend image size to less than 25MB and frontend images sizd to ~62MB
